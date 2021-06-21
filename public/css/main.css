@@ -84,8 +84,10 @@ nav {
 }
 
 .copyright {
-    color: rgb(226, 223, 223);
     font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 223, 223);
+    font-weight: 700;
+
 }
 
 .btn-cart {
@@ -94,6 +96,7 @@ nav {
     border-style: none;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(83, 157, 255, 0.582);
+    padding: 0.75rem;
 }
 
 .btn-cart:hover {
