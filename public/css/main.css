@@ -30,8 +30,6 @@ h3 {
 
 }
 
-p {}
-
 hr {
     border: 0px;
     border-top: 1px solid rgb(25, 2, 48);
@@ -40,6 +38,7 @@ hr {
 }
 
 nav {
+    font-family: 'Montserrat', sans-serif;
     z-index: 2;
     margin-top: 5rem;
     max-width: 70%;
@@ -68,11 +67,25 @@ nav {
     font-weight: 500;
 }
 
+.dropdown-menu {
+    border: none;
+}
+
 #logo {
     font-weight: 900;
     font-size: 3.5rem;
     color: rgb(83, 158, 255);
     text-shadow: 0px 0px 20px rgba(83, 157, 255, 0.582);
+}
+
+.socialmedia {
+    color: rgb(226, 223, 223);
+    font-size: 3rem;
+}
+
+.copyright {
+    color: rgb(226, 223, 223);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-cart {
@@ -104,14 +117,8 @@ nav {
     background-color: white;
     min-height: 80vh;
     max-width: 70%;
-    /* background: linear-gradient(to right bottom,
-            rgba(243, 253, 255, 0.8),
-            rgba(243, 248, 255, 0.9));
-            backdrop-filter: blur(2rem); */
     z-index: 1;
-
     position: relative;
-    /* margin-top: 100px; */
 }
 
 

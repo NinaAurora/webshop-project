@@ -29,7 +29,7 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Franchises
                         </a>
-                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Stardew Valley</a></li>
                             <li><a class="dropdown-item" href="#">The Witcher</a></li>
                             <li><a class="dropdown-item" href="#">All Franchises</a></li>
@@ -97,44 +97,195 @@
         </div>
 
         <div class="row px-5 gx-5 mb-5">
-            <div class="col-4">
-                <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
-                <h3>Stardew Valley $40 <i class="bi bi-cart-plus-fill"></i></h3>
-            </div>
-            <div class="col-4">
-                <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
-                <h3>Animal Crossing $40<i class="bi bi-cart-plus-fill"></i></h3>
-            </div>
+
             <div class="col-4">
                 <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
                 <div class="row my-2">
-                    <div class="col-9 text-end ">
-                        <h3> The Witcher Trilogy $50</h3>
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
                     </div>
                     <div class="col-3 text-end">
-                        <form class="d-flex">
-                            <button class="btn btn-cart" type="submit"><i
-                                    class="bi bi-bag-plus-fill hvr-grow"></i></button>
-                        </form>
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 1
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="col-4">
+                <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
+                <div class="row my-2">
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
+                    </div>
+                    <div class="col-3 text-end">
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
+                <div class="row my-2">
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
+                    </div>
+                    <div class="col-3 text-end">
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="row px-5 gx-5 mb-5">
+
             <div class="col-4">
                 <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
-                Product Title $price
+                <div class="row my-2">
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
+                    </div>
+                    <div class="col-3 text-end">
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 4
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="col-4">
                 <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
-                Product Title $price
+                <div class="row my-2">
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
+                    </div>
+                    <div class="col-3 text-end">
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 5
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="col-4">
                 <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="img-fluid">
-                Product Title $price
+                <div class="row my-2">
+                    <div class="col-9 text-end my-auto mt-2">
+                        <h3>Product Title $price</h3>
+                    </div>
+                    <div class="col-3 text-end">
+                        <button type="button" class="btn btn-cart" id="liveToastBtn"><i
+                                class="bi bi-bag-plus-fill hvr-grow"></i></button>
+
+                        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+                            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                aria-atomic="true">
+                                <div class="toast-header">
+                                    <img src="..." class="rounded me-2" alt="...">
+                                    <strong class="me-auto">Bootstrap</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Added product to cart 6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mx-auto mt-5">
+                <div class="col-12 d-flex justify-content-center mt-5 ">
+                    <h2>
+                        <i class="socialmedia bi bi-facebook"></i>
+                        <i class="socialmedia bi bi-instagram"></i>
+                        <i class="socialmedia bi bi-linkedin"></i>
+                        <i class="socialmedia bi bi-twitter"></i>
+                    </h2>
+                </div>
+                <div class="col d-flex justify-content-center copyright"> ©Copyright Femke & Nina productions</div>
+
             </div>
         </div>
+
+        </div>
+
     </section>
 
 
@@ -147,3 +298,11 @@
     <div class="circle-3"></div>
     <div class="circle-4"></div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        document.getElementById("liveToastBtn").onclick = function () {
+            $('.toast').toast('show');
+        }
+    })
+</script>
